@@ -1,0 +1,14 @@
+@import "./styles//abstract/mixins";
+@import "./styles//abstract/variables";
+
+@import "./styles//base/animation";
+@import "./styles/base/base";
+@import "./styles/base//typography";
+@import "./styles/base/utilities";
+
+//components
+@import "./styles/component/button";
+@import "./styles/component/boxes";
+
+//pages
+@import "./styles/pages/home.scss";

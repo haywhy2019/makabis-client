@@ -1,0 +1,42 @@
+.hero{
+    background-color: $color-primary;
+    height: 100vh;
+    position: relative;
+}
+
+.herotext-margin{
+    margin-top: 15rem;
+}
+
+.herocard1{
+margin-top: 13rem;
+width: 16rem;
+height: 12rem;
+position: absolute;
+}
+
+.herocard2{
+margin-top: 7.5rem;
+width: 15.9rem;
+height: 17.6rem;
+position: absolute;
+margin-left: 18rem;
+}
+
+
+.herocard3{   
+width: 17.6rem;
+height: 15.9rem;
+margin-top: 27rem;
+right: 31rem;
+position: absolute;
+}
+
+
+.herocard4{
+width: 17.6rem;
+height: 15.9rem;
+margin-left: 17rem;
+margin-top: 27rem;
+position: absolute;
+}

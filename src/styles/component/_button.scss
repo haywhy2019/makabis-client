@@ -1,0 +1,10 @@
+.button{
+   &__hero{
+      background-color:$color-secondary;
+      color: $color-white;
+      border: none;
+      width: 15rem;
+height: 3rem;
+border-radius: 10rem;
+   }
+}
