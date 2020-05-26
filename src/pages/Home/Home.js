@@ -7,9 +7,11 @@ import headerimg4 from "../../asset/images/header4.png";
 import event1 from "../../asset/images/homeevent1.png";
 import event2 from "../../asset/images/homeevent2a.png";
 import event3 from "../../asset/images/homeevent3a.png";
-import { ReactComponent as Ideal } from "../../asset/SVG/plan.svg"
-import { ReactComponent as Real } from "../../asset/SVG/ideal.svg"
-import { ReactComponent as Plan } from "../../asset/SVG/real.svg"
+import ideal from "../../asset/images/ideal.png";
+import plan from "../../asset/images/plan.png";
+import real from "../../asset/images/real.png";
+import testimony1 from "../../asset/images/testimony1.png";
+
 
 
 
@@ -35,7 +37,7 @@ const Hero = () => {
             <h1 className="herotext">
               We make any occasion<br/><span className="herotext_bold">Memorable</span>
             </h1>
-            <p>
+            <p className="herotext_paragraph">
               Our Business is not just planning, but total event ,<br/>production,
               precise coordination and <br/> extraordinary result.
             </p>
@@ -73,6 +75,7 @@ const Herosection = () => {
         <h1 className="text__heading text-center mt-5">We plan, you party</h1>
        <div className="container mt-3">
        <div className=" box">
+        
           <div className="text__subheading">
             <h3 className="box__text">event planning</h3>
             <img src={event1} alt="makabis-event-types" className="box__three"/>
@@ -92,24 +95,24 @@ const Herosection = () => {
 
       <div className="mt-5 text-center">
         <h1 className="text__subheading2 ">Our Approach</h1>
-        <div>
-          <div>
-     <Ideal />
-            <h3>Ideal</h3>
-            <p>Your vision when your ideas take off</p>
+        <div className="flexspace">
+          <div classname="flexspace__item">
+
+              <img src={ideal} alt="makabis-event-ideas" className="icon" />
+            <h3 className="text__subheading3">Ideal</h3>
+            <p className="text--main">Your vision <br/> when your ideas take off</p>
           </div>
-          <div>
-            <Real />
-            <img src="" alt="" />
-            <h3>Planning</h3>
-            <p>We turn your ideas into action by designing your perfect day</p>
+          <div classname="flexspace__item">
+       
+            <img src={plan} alt="makabis-event-planning" className="icon" />
+            <h3 className="text__subheading3">Planning</h3>
+            <p className="text--main">We turn your ideas into action <br/> by designing your perfect day</p>
           </div>
-          <div>
-            <Plan />
-            <img src="" alt="" />
-            <h3>Realization</h3>
-            <p>Making your event come alive</p>
-            <p>The event you imagine is brought to alive</p>
+          <div classname="flexspace__item">
+    
+            <img src={real} alt="makabis-event-realization" className="icon" />
+            <h3 className="text__subheading3">Realization</h3>
+            <p  className="text--main">Making your event come alive<br/>The event you imagine is brought to alive</p>
           </div>
         </div>
       </div>
@@ -121,10 +124,39 @@ const Testimoniasection = () => {
   return (
     <div>
       <div>
-        <div>
-          <h1>Our customer love what we do</h1>
+        <div className="testimony-section">
+          <h1 className="testimony-section__text">Our customer love what we do</h1>
         </div>
-        <div>
+        <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+        <img src={testimony1} className="d-block w-100" alt="makabis-event-testimony" />
+        <p style={{color: "blue"}}>
+            MAkabis & Benet gave us a splendid amblence that we wont forget in a
+            hurry. I was also thrilled by the presence reated on the singing
+            stage. the pictues speaks for themselves and we're grateful.
+          </p>
+          <p>Obiwon</p>
+    </div>
+    <div className="carousel-item">
+      <img src="..." className="d-block w-100" alt="makabis-event-testimony" />
+    </div>
+    <div className="carousel-item">
+      <img src="..." className="d-block w-100" alt="makabis-event-testimony" />
+    </div>
+  </div>
+  <CTA>Watch videos</CTA>
+</div>
+
+
+
+
+
+
+
+
+
+        <div className="">
           <img src="" alt="" />
           <p>
             MAkabis & Benet gave us a splendid amblence that we wont forget in a

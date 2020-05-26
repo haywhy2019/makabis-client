@@ -1,21 +1,32 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Raleway', sans-serif;
     font-weight: 400;
     line-height: 1.7;
     color: $color-white;
 }
 
 .herotext{
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 3.5rem;
     &_bold{
         font-weight: 900;
         font-size: 4rem;
     }
+    &_paragraph{
+        font-size: 1.3rem;
+    }
 }
 
 .text{
     color: $color-white;
+
+    &--main{
+        color: $color-black;
+        text-transform: capitalize;
+        font-size: 1rem;
+    }
+    
     &__heading{
         font-size: 2rem;
         color: $color-primary;
@@ -30,6 +41,13 @@ body {
         color: $color-primary;
         text-transform: capitalize;
         font-weight: bolder;
+        margin: 2rem 0;
+    }
+    &__subheading3{
+        font-size: 1.5rem;
+        color: $color-primary;
+        text-transform: capitalize;
+        font-weight: bold;
         margin: 2rem 0;
     }
 

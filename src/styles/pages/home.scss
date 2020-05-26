@@ -40,3 +40,22 @@ margin-left: 17rem;
 margin-top: 27rem;
 position: absolute;
 }
+.eventimage{
+    height: 30rem;
+    background-image: url("../../asset/images/homeevent1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.testimony-section{
+    background-color: $color-primary;
+    width: 100vw;
+    height: 20rem;
+    margin-top: 5rem;
+
+    &__text{
+            font-weight: 600;
+            font-size: 2rem;
+            text-align: center;
+           padding: 3rem;
+    }
+}
