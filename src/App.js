@@ -32,7 +32,7 @@ class App extends Component{
           <Route exact path="/signin" render={() => this.props.currentUser ? (<Redirect to='/' /> ) : (<Signin />)} />
         </Switch>
       </Router>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
  }
