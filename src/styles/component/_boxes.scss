@@ -37,7 +37,18 @@
         margin: 0 auto;
 }
 
-.icon{
-    width: 10rem;
+
+.testimony-slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 3rem;
+
 }
 
+.center{
+    width: 90%;
+    margin: 0 auto;
+
+}

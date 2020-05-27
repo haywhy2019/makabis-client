@@ -11,7 +11,13 @@ import ideal from "../../asset/images/ideal.png";
 import plan from "../../asset/images/plan.png";
 import real from "../../asset/images/real.png";
 import testimony1 from "../../asset/images/testimony1.png";
-
+import icon from "../../asset/sprite.svg";
+import logo1 from "../../asset/images/fate.png"
+import logo2 from "../../asset/images/schne.png"
+import logo3 from "../../asset/images/kgc.png"
+import logo4 from "../../asset/images/gific.png"
+import logo5 from "../../asset/images/visa.png"
+import logo6 from "../../asset/images/mfm.png"
 
 
 
@@ -127,45 +133,80 @@ const Testimoniasection = () => {
         <div className="testimony-section">
           <h1 className="testimony-section__text">Our customer love what we do</h1>
         </div>
+       <div className="carosel-width">
         <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-        <img src={testimony1} className="d-block w-100" alt="makabis-event-testimony" />
-        <p style={{color: "blue"}}>
-            MAkabis & Benet gave us a splendid amblence that we wont forget in a
-            hurry. I was also thrilled by the presence reated on the singing
-            stage. the pictues speaks for themselves and we're grateful.
-          </p>
-          <p>Obiwon</p>
+      <div className="testimony-slide">
+        <div>
+        <img src={testimony1} className="icon2" alt="makabis-event-testimony" />
+        </div>
+        <div>
+        <p className="testimony-text">
+            Makabis & Benet gave us a splendid amblence that we wont forget in a
+            <br/> hurry. I was also thrilled by the presence reated on the singing
+            stage. 
+            <br /> the pictues speaks for themselves and we're grateful.
+          <br/>
+        <strong>Obiwon</strong></p>
+        </div>
+          </div>
+          <CTA  className="button__testimony">
+        <svg  className="button-icon">
+        <use href={icon + "#play"} />
+      </svg>
+      watch video
+        </CTA>
+     
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="makabis-event-testimony" />
+    <div className="testimony-slide">
+        <div>
+        <img src={testimony1} className="icon2" alt="makabis-event-testimony" />
+        </div>
+        <div>
+        <p className="testimony-text">
+        Makabis & Benet gave us a splendid amblence that we wont forget in a
+            <br/> hurry. I was also thrilled by the presence reated on the singing
+            stage. 
+            <br /> the pictues speaks for themselves and we're grateful.
+          <br/>
+          <strong>Obiwon</strong></p>
+        </div>
+        </div>
+        <CTA className="button__testimony">
+        <svg className="button-icon">
+        <use href={icon + "#play"} />
+      </svg>
+      watch video
+        </CTA>
+
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="makabis-event-testimony" />
+    <div className="testimony-slide">
+        <div>
+        <img src={testimony1} className="icon2" alt="makabis-event-testimony" />
+        </div>
+        <div>
+        <p className="testimony-text">
+        Makabis & Benet gave us a splendid amblence that we wont forget in a
+            <br/> hurry. I was also thrilled by the presence reated on the singing
+            stage. 
+            <br /> the pictues speaks for themselves and we're grateful.
+          <br/>
+      <strong>Obiwon</strong></p>
+        </div>
+        </div>
+        <CTA  className="button__testimony">
+        <svg  className="button-icon">
+        <use href={icon + "#play"} />
+      </svg>
+      watch video
+        </CTA>
     </div>
   </div>
-  <CTA>Watch videos</CTA>
 </div>
-
-
-
-
-
-
-
-
-
-        <div className="">
-          <img src="" alt="" />
-          <p>
-            MAkabis & Benet gave us a splendid amblence that we wont forget in a
-            hurry. I was also thrilled by the presence reated on the singing
-            stage. the pictues speaks for themselves and we're grateful.
-          </p>
-          <p>Obiwon</p>
-        </div>
-        <CTA>Watch videos</CTA>
+</div>
       </div>
     </div>
   );
@@ -173,16 +214,18 @@ const Testimoniasection = () => {
 
 const Clientlogo = () => {
   return (
-    <div>
-      <h1>Our client</h1>
-      <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+    <div className="client-section">
+    <div className=" center">
+      <h1 className="text__subheading2">Our client</h1>
+      <div className="logo-center">
+        <img src={logo1} alt="makabis-partners" className="client_logo" />
+        <img src={logo2} alt = "makabis-partners" className="client_logo"/>
+        <img src={logo3} alt="makabis-partners" className="client_logo" />
+        <img src={logo4} alt="makabis-partners"  className="client_logo"/>
+        <img src={logo5} alt="makabis-partners" className="client_logo" />
+        <img src={logo6} alt="makabis-partners" className="client_logo" />
       </div>
+    </div>
     </div>
   );
 };

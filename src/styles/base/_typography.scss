@@ -42,6 +42,7 @@ body {
         text-transform: capitalize;
         font-weight: bolder;
         margin: 2rem 0;
+        text-align: center;
     }
     &__subheading3{
         font-size: 1.5rem;
@@ -50,5 +51,12 @@ body {
         font-weight: bold;
         margin: 2rem 0;
     }
+
+}
+
+.testimony-text{
+color: $color-black;
+margin-left: 2rem;
+margin-top: 1rem;
 
 }

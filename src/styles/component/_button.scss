@@ -9,4 +9,14 @@
     font-weight: bold;
     margin-top: 1rem;
   }
+  &__testimony{
+    background-color: $color-secondary;
+    color: $color-white;
+    text-transform: uppercase;
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10rem;
+    margin-left: 20rem;
+  }
 }
