@@ -179,7 +179,7 @@ const Herosection = () => {
 
 const Testimoniasection = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div>
         <div className="testimony-section">
           <h1 className="testimony-section__text">
