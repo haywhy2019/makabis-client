@@ -41,7 +41,6 @@ body {
         color: $color-primary;
         text-transform: capitalize;
         font-weight: bolder;
-        margin: 2rem 0;
         text-align: center;
     }
     &__subheading3{
@@ -51,6 +50,13 @@ body {
         font-weight: bold;
         margin: 2rem 0;
     }
+    &__pills{
+        font-size: 1rem;
+        text-transform: capitalize;
+        font-weight: normal;
+        background-color: $color-secondary;
+
+    }
 
 }
 
@@ -59,4 +65,24 @@ color: $color-black;
 margin-left: 2rem;
 margin-top: 1rem;
 
+}
+
+.page-header-text{
+    position: absolute;
+    color: $color-white;
+    font-weight: bolder;
+    font-size: 2rem;
+    left: 50%;
+    top: 10rem;
+    transform: translate(-50%, -50%);
+}
+
+.page-text{
+    position: absolute;
+    color: $color-white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    left: 50%;
+    top: 12rem;
+    transform: translate(-50%, -50%);
 }

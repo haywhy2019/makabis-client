@@ -8,7 +8,13 @@
 
 //components
 @import "./styles/component/button";
-@import "./styles/component/boxes";
+
+
+//layout
+@import "./styles/layout/layout";
+
 
 //pages
 @import "./styles/pages/home.scss";
+@import "./styles/pages/services";
+
