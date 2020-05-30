@@ -26,6 +26,12 @@ body {
         text-transform: capitalize;
         font-size: 1rem;
     }
+
+    &--main2{
+        color: $color-black;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+    }
     
     &__heading{
         font-size: 2rem;
