@@ -98,3 +98,17 @@ margin-top: 1rem;
     transform: translate(-50%, -50%);
 }
 
+.cardtext{
+    color: $color-white;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.cardtext-s{
+    color: $color-white;
+    text-transform: capitalize;
+    font-size: .8rem;
+}
+

@@ -5,6 +5,8 @@ import card2 from "../../asset/images/person1.png";
 import card3 from "../../asset/images/person2.png";
 import card4 from "../../asset/images/person3.png";
 import abouticon from "../../asset/images/about icon.png";
+import Icon from "../../asset/sprite.svg";
+
 function About() {
   return (
     <div>
@@ -116,55 +118,76 @@ const Aboutsection3 = () => {
   <div className="card primary-backg">
     <img src={card1} className="card-img-top" alt="" />
     <div className="card-body">
-        <p>CEO Makabis & Benet</p>
-      <h5 className="card-title">Sijibomi Adebiyi</h5>
-      <p className="card-text">Sijibomi Adebiyi-Benet is the Executive 
+        <p className="text-c-primary2 text-center">CEO Makabis & Benet</p>
+      <h5 className="card-title cardtext  text-center">Sijibomi Adebiyi</h5>
+      <p className="card-text cardtext-s mb-mid">Sijibomi Adebiyi-Benet is the Executive 
       Director at Makabis & Benet Limited, a distinguished event development
        and management company in Nigeria with remarkable imprints in 
       both social and corporate circles. Sijibomi…</p>
-      <p className="card-text">@sijibomibenet</p>
+      <div  className="text-center">
+            <svg className="social-icon-white">
+                    <use href={Icon + "#icon-instagram"} />
+                  </svg>
+                  <p className="card-text d-inline-block ml-2">@sijibomibenet</p>
+            </div>
     </div>
   </div>
   <div className="card primary-backg">
     <img src={card4} className="card-img-top" alt="..." />
     <div className="card-body">
-    <p>Lead Event Stylist</p>
-      <h5 className="card-title">Diala Chinyere Linda</h5>
-      <p className="card-text">Chinyere is the senior event stylist at 
+    <p className="text-c-primary2  text-center">Lead Event Stylist</p>
+      <h5 className="card-title cardtext  text-center">Diala Chinyere Linda</h5>
+      <p className="card-text cardtext-s ">Chinyere is the senior event stylist at 
       Impressions by Makabis, the design/decor arm of Makabis & Benet. 
       Dilligent & tenacious, she helps in the detailed execution
        & delivery of agreed concepts 
       & ideas to achieve the desired ambience. </p>
-      <p className="card-text">@_chiphumsie></p>
+      <div  className="text-center">
+            <svg className="social-icon-white">
+                    <use href={Icon + "#icon-instagram"} />
+                  </svg>
+                  <p className="card-text d-inline-block ml-2">@_chiphumsie</p>
+            </div>
     </div>
   </div>
 
   <div className="card primary-backg">
     <img src={card3} className="card-img-top" alt="..." />
     <div className="card-body">
-    <p>Lead Event Stylist</p>
-      <h5 className="card-title">Diala Chinyere Linda</h5>
-      <p className="card-text">Chinyere is the senior event stylist at 
+    <p className="text-c-primary2  text-center">Lead Event Stylist</p>
+      <h5 className="card-title cardtext  text-center">Diala Chinyere Linda</h5>
+      <p className="card-text cardtext-s">Chinyere is the senior event stylist at 
       Impressions by Makabis, the design/decor arm of Makabis & Benet. 
       Dilligent & tenacious, she helps in the detailed execution
        & delivery of agreed concepts 
       & ideas to achieve the desired ambience. </p>
-      <p className="card-text">@_chiphumsie></p>
+      <div  className="text-center">
+            <svg className="social-icon-white">
+                    <use href={Icon + "#icon-instagram"} />
+                  </svg>
+                  <p className="card-text d-inline-block ml-2">@chi_crown</p>
+            </div>
+
     </div>
   </div>
 
   <div className="card primary-backg">
     <img src={card2} className="card-img-top" alt="" />
     <div className="card-body">
-        <p>Lead Event Producer</p>
-      <h5 className="card-title">Olanrewaju Kafayat Temidayo </h5>
-      <p className="card-text">Kafayat is the head of 
+        <p className="text-c-primary2">Lead Event Producer</p>
+      <h5 className="card-title cardtext">Olanrewaju Kafayat Temidayo </h5>
+      <p className="card-text cardtext-s">Kafayat is the head of 
       event production & the administrative executive 
       for Makabis & Benet. A graduate of English with 
       certifications in corporate leadership,
        she is versed in conveying 
       thoughts & fantasies into reality.</p>
-      <p className="card-text">@kharfy</p>
+      <div className="text-center">
+            <svg className="social-icon-white">
+                    <use href={Icon + "#icon-instagram"} />
+                  </svg>
+                  <p className="card-text d-inline-block ml-2">@kharfy</p>
+            </div>
     </div>
   </div>
 
