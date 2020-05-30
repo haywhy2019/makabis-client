@@ -30,8 +30,14 @@ body {
     &__heading{
         font-size: 2rem;
         color: $color-primary;
-        
     }
+
+    &__heading2{
+        font-size: 2rem;
+        color: $color-primary;
+        font-weight: bold; 
+    }
+   
     &__subheading{
         font-size: 1.5rem;
         color: $color-primary;
@@ -55,8 +61,7 @@ body {
         text-transform: capitalize;
         font-weight: normal;
         background-color: $color-secondary;
-
-    }
+}
 
 }
 
@@ -86,3 +91,4 @@ margin-top: 1rem;
     top: 12rem;
     transform: translate(-50%, -50%);
 }
+

@@ -61,7 +61,7 @@ function Navbar({ currentUser }) {
             <li className="nav-item">
               <Link
                 className="nav-link"
-                to="/impression"
+                to="/contact"
               >
               Contact us
               </Link>

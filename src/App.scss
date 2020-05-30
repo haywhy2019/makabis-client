@@ -8,6 +8,7 @@
 
 //components
 @import "./styles/component/button";
+@import "./styles/component/icons";
 
 
 //layout
@@ -15,6 +16,7 @@
 
 
 //pages
+@import "./styles/pages/contact";
 @import "./styles/pages/home.scss";
 @import "./styles/pages/services";
 
