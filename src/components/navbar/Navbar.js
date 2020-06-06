@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux'; 
+import Logo from '../../asset/images/Makabis Logo2.png'
+
 
 function Navbar({ currentUser }) {
   return (
     <div>
       <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to="/">
-        <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="" />
-          Navbar
+        <img src={Logo} width="30" height="30" alt="" />
+        
         </Link>
         <button
           className="navbar-toggler"

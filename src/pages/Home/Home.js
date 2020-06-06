@@ -89,7 +89,7 @@ const Herosection = () => {
       <div classname="container mt-3 box ">
         <h1 className="text__heading text-center mt-5">We plan, you party</h1>
         <div class="row justify-content-md-center mt-5">
-          <div class="col-md-3">
+          <div class="col-md-3 ">
             <div className="">
               <h3 className="box__text">event planning</h3>
               <img
@@ -100,7 +100,7 @@ const Herosection = () => {
             </div>
           </div>
           <div class="col-md-3">
-            <div className=" ">
+            <div className="mobile-left-s">
               <h3 className="box__text">event branding</h3>
               <img
                 src={event2}
@@ -195,7 +195,7 @@ const Testimoniasection = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="testimony-slide">
-                  <div>
+                  <div class="">
                     <img
                       src={testimony1}
                       className="icon2"
