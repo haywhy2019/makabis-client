@@ -10,9 +10,9 @@ import Service from './pages/Services/Services';
 import Impression from './pages/Impression/Impression';
 import Signin from './pages/signin-and-signup/signin';
 import Signup from './pages/signin-and-signup/Signup';
-import Footer from './components/footer/Footer'
 
-import { connect } from 'react-redux';
+
+
 import { setCurrentUser } from './redux/user/user.actions' 
 
 
