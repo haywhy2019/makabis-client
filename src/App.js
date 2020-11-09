@@ -12,7 +12,7 @@ import Signin from './pages/signin-and-signup/signin';
 import Signup from './pages/signin-and-signup/Signup';
 
 
-
+// import { connect } from 'react-redux';
 import { setCurrentUser } from './redux/user/user.actions' 
 
 
@@ -49,4 +49,6 @@ const mapDispatchToProps = dispatch => ({
  setCurrentUser: user => dispatch(setCurrentUser(user))
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+// export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+export default App;
