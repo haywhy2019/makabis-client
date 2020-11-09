@@ -24,7 +24,7 @@ const Brandingheader = () => {
         <div className="container-fluid">
             <div className="relative row">
             <div className="col-md-12">
-            <img src={Headerimg} alt="" class="img-fluid m-0 p-0 "/>
+            <img src={Headerimg} alt="" class="img-fluid m-0 p-0 header-image"/>
             <h1 className="page-header-text">Our services</h1>
             </div>
         </div>

@@ -23,7 +23,7 @@ const Header = () => {
         <div className="container-fluid">
             <div className="relative row">
             <div className="col-md-12">
-            <img src={Headerimg} alt="" class="img-fluid m-0 p-0 "/>
+            <img src={Headerimg} alt="" class="img-fluid m-0 p-0 header-image"/>
             <h1 className="page-header-text">Our services</h1>
             </div>
         </div>
@@ -38,13 +38,13 @@ const Section1 = () => {
                 <div className="col-md-12">
                   <h1 className="text-center text__subheading2 mt-5">Memorable events don’t just happen.</h1>
                   <h1 className="text__subheading2 mb-4"> They happen to be our business.</h1>
-         <div className="text-center container">
+         <div className="text-center container ">
              <div className="row justify-content-md-around"> 
-             <div className="col-md-10">  
-            <span class="badge badge-pill text__pills mr-5  mt-5 pl-5 pr-5 pb-2 pt-2">Event planning</span>
-            <span class="badge badge-pill text__pills mr-5  mt-5 pl-5 pr-5 pb-2 pt-2">Event branding</span>
-            <span class="badge badge-pill text__pills mr-5  mt-5 pl-5 pr-5 pb-2 pt-2">Event styling by impressions</span>
-            <span class="badge badge-pill text__pills mr-5  mt-5 pl-5 pr-5 pb-2 pt-2">Rentals by impression</span>
+             <div className="col-md-10 center">  
+            <span class="badge badge-pill text__pills mr-5  mt-5 pl-5 pr-5 pb-2 pt-2 mob-pills">Event planning</span>
+            <span class="badge badge-pill text__pills mr-5  mt-5 pl-5 pr-5 pb-2 pt-2 mob-pills">Event branding</span>
+            <span class="badge badge-pill text__pills mr-5  mt-5 pl-5 pr-5 pb-2 pt-2 mob-pills">Event styling </span>
+            <span class="badge badge-pill text__pills mr-5  mt-5 pl-5 pr-5 pb-2 pt-2 mob-pills">Rentals</span>
             </div>
             </div>
             </div>
@@ -64,7 +64,7 @@ const Section2 = () => {
       <img src={Service1} alt="" class="img-fluid relative"/>  
       <h2 className="page-text">Corporate</h2>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-5 mob-top">
     <img src={Service2} alt="" class="img-fluid relative"/>  
       <h2 className="page-text">Specialized</h2>
     </div>
@@ -72,11 +72,11 @@ const Section2 = () => {
         </div>
         <div className="container mt-2">
              <div class="row justify-content-md-center">
-    <div class="col-md-5">
+    <div class="col-md-5 mob-top">
     <img src={Service3} alt="" class="img-fluid relative"/>  
       <h2 className="page-text">Social</h2>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-5 mob-top">
     <img src={Service4} alt="" class="img-fluid relative"/>  
       <h2 className="page-text">Weddings</h2>
     </div>

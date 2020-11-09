@@ -9,7 +9,7 @@ function Navbar({ currentUser }) {
     <div>
       <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to="/">
-        <img src={Logo} width="30" height="30" alt="" />
+        <img src={Logo} width="50"  alt="" />
         
         </Link>
         <button
@@ -26,38 +26,20 @@ function Navbar({ currentUser }) {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto left">
-            <li className="nav-item active">
+
+          <li className="nav-item active ml-2">
+              <Link className="nav-link" to="/">
+               Home 
+              </Link>
+            </li>
+            <li className="nav-item ml-2">
               <Link className="nav-link" to="/about">
                 About Us 
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ml-2">
               <Link className="nav-link" to="/services">
                 Our Services
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="/contact"
-              >
-              e-Events
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="/impression"
-              >
-              Gallery
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="/impression"
-              >
-              Blog
               </Link>
             </li>
             <li className="nav-item">

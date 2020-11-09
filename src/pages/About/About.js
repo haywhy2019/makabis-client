@@ -25,8 +25,8 @@ const Aboutheader = () => {
     <div className="container-fluid">
       <div className="relative row">
         <div className="col-md-12">
-          <img src={aboutimg} alt="" class="img-fluid m-0 p-0 " />
-          <h1 className="page-header-text">About us</h1>
+          <img src={aboutimg} alt="" class="img-fluid m-0 p-0 header-image" />
+          <h1 className="page-header-text mt-5">About us</h1>
         </div>
       </div>
     </div>
@@ -108,11 +108,7 @@ const Aboutsection3 = () => {
 
                 
             <div className="row justify-content-md-center">
-<div className="col-md-10">
-
-
-
-
+<div className="col-md-12">
 
             <div className="card-deck">
   <div className="card primary-backg">

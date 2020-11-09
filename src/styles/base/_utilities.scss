@@ -12,6 +12,11 @@
 
 .round-edge{
     border-radius: 10rem;
+    height: 5rem;
+    @media(max-width: 768px){
+        border-radius: 4rem;
+    height: 5rem;
+    }
 }
 
 .round-edge2{
@@ -29,3 +34,4 @@
 .mb-mid{
     margin-bottom: 2.5rem;
 }
+

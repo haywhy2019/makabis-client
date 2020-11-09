@@ -3,11 +3,16 @@
     background-color: $color-secondary;
     color: $color-white;
     border: none;
-    width: 15rem;
-    height: 3rem;
+    width: 20rem;
+    height: 5rem;
     border-radius: 10rem;
     font-weight: bold;
     margin-top: 1rem;
+    @media(max-width:768px){
+      width: 10rem;
+      height: 2rem;
+      font-size: 1rem;
+     }
   }
   &__testimony{
     background-color: $color-secondary;
@@ -23,7 +28,7 @@
     }
   }
   &__reg{
-    font-size: 1rem;
+    font-size: 2rem;
     color: $color-white;
     text-transform: uppercase;
     font-weight: bold;

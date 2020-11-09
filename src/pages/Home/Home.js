@@ -129,30 +129,30 @@ const Herosection = () => {
           Our Approach
         </h1>
         <div class="row justify-content-md-center ">
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div classname="">
               <div className="margin-left-big">
                 <img src={ideal} alt="makabis-event-ideas" className="icon" />
               </div>
-              <h3 className="text__subheading3 text-center">Ideal</h3>
-              <p className="text--main text-center">
+              <h3 className="text__subheading3 text-left">Ideal</h3>
+              <p className="text--main text-left">
                 Your vision <br /> when your ideas take off
               </p>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div classname="text-center">
               <div className="margin-left-big">
                 <img src={plan} alt="makabis-event-planning" className="icon" />
               </div>
-              <h3 className="text__subheading3 text-center">Planning</h3>
-              <p className="text--main text-center">
+              <h3 className="text__subheading3 text-left">Planning</h3>
+              <p className="text--main text-left">
                 We turn your ideas into action <br /> by designing your perfect
                 day
               </p>
             </div>
           </div>
-          <div class="col-md-3 mt-4">
+          <div class="col-md-4 mt-4">
             <div classname="">
               <div className="margin-left-big">
                 <img
@@ -162,8 +162,8 @@ const Herosection = () => {
                 />
               </div>
               <div classsName="mt-5">
-                <h3 className="text__subheading3 text-center ">Realization</h3>
-                <p className="text--main text-center">
+                <h3 className="text__subheading3 text-left">Realization</h3>
+                <p className="text--main text-left">
                   Making your event come alive
                   <br />
                   The event you imagine is brought to alive
@@ -292,14 +292,16 @@ const Clientlogo = () => {
   return (
     <div className="client-section">
       <div className=" center">
-        <h1 className="text__subheading2">Our client</h1>
-        <div className="logo-center">
+        <h1 className="text__subheading2 mb-5">Our client</h1>
+        <div className="container mt-5">
+          <div className="logo-center">
           <img src={logo1} alt="makabis-partners" className="client_logo" />
           <img src={logo2} alt="makabis-partners" className="client_logo" />
           <img src={logo3} alt="makabis-partners" className="client_logo" />
           <img src={logo4} alt="makabis-partners" className="client_logo" />
           <img src={logo5} alt="makabis-partners" className="client_logo" />
           <img src={logo6} alt="makabis-partners" className="client_logo" />
+        </div>
         </div>
       </div>
     </div>

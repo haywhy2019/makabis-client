@@ -2,3 +2,16 @@
     position: relative;
    opacity: 1;
 }
+
+.mob-top{
+    @media(max-width: 768px){
+        margin-top: 2rem;
+ }
+}
+
+.mob-pills{
+    @media(max-width: 768px){
+       font-size: 1rem;
+       display: inline-block;
+ }
+}

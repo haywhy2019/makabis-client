@@ -17,7 +17,7 @@ const Contactheader = () => {
     <div className="container-fluid">
       <div className="relative row">
         <div className="col-md-12">
-          <img src={Contactimg} alt="" class="img-fluid m-0 p-0 " />
+          <img src={Contactimg} alt="" class="img-fluid m-0 p-0 header-image" />
           <h1 className="page-header-text">Contact us</h1>
         </div>
       </div>
@@ -27,7 +27,7 @@ const Contactheader = () => {
 
 const Contactbody = () => {
   return (
-    <div className="container mb-5">
+    <div className="container mb-5 mt-5">
       <div className="row mt-3">
         <div className="col-md-5 mt-5 ml-5">
           <div>
@@ -86,7 +86,7 @@ const Contactbody = () => {
           </div>
         </div>
 
-        <div className="col-md-5">
+        <div className="col-md-5 mt-5 center">
           <div>
             <p className="text--main">
               Send us a message and we’ll follow up with you as soon as
